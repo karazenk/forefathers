@@ -1,0 +1,33 @@
+.nav {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    @include visuallyhidden;
+  }
+  ul {
+    @include clearfix;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    float: left;
+    margin-right: 5em;
+    padding: 0 .25em;
+    border-bottom: 0.4em solid transparent;
+  }
+  a {
+    color: $black;
+    text-decoration: none;
+    padding: 0.5em 0;
+    display: inline-block;
+    &:hover {
+      color: $gold;
+    }
+  }
+}
