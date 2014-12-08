@@ -2,12 +2,32 @@
   font-family: "Century", serif;
   color: $gold;
   font-weight: 500;
-  font-size: 1.1em;
   .creep {
     font-size: .9em;
   }
-  img {
-    width: 125px;
+  .copyright {
+    font-size: 1em;
+    float: left;
+    width: 60%;
+    p {
+      padding-top: 30px;
+      vertical-align: top;
+    }
+  }
+  .social {
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+    p {
+      padding-left: 60px;
+      margin: 0;
+      padding-top: 10px;
+    }
+  }
+  p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
   }
   h2 {
     @include visuallyhidden;
@@ -20,14 +40,14 @@
     float: right;
   }
   li {
-    float: right;
-    margin-right: 2em;
+    display: inline-block;
+    margin-right: 1.8em;
     padding: 0 .25em;
     border-bottom: 0.4em solid transparent;
   }
   a {
     color: $gold;
-    text-decoration: none;
+    text-decoration: solid;
     padding: 0.5em 0;
     display: inline-block;
     &:hover {
