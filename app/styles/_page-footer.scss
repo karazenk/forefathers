@@ -1,12 +1,14 @@
-.nav {
-  text-transform: uppercase;
+.page-footer {
+  font-family: "Century", serif;
+  color: $gold;
   font-weight: 500;
-  font-size: 1.2em;
-  letter-spacing: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-
+  font-size: 1.1em;
+  .creep {
+    font-size: .9em;
+  }
+  img {
+    width: 125px;
+  }
   h2 {
     @include visuallyhidden;
   }
@@ -15,20 +17,21 @@
     margin: 0;
     list-style-type: none;
     padding: 0;
+    float: right;
   }
   li {
-    float: left;
-    margin-right: 5em;
+    float: right;
+    margin-right: 2em;
     padding: 0 .25em;
     border-bottom: 0.4em solid transparent;
   }
   a {
-    color: $black;
+    color: $gold;
     text-decoration: none;
     padding: 0.5em 0;
     display: inline-block;
     &:hover {
-      color: $gold;
+      color: $black;
     }
   }
 }

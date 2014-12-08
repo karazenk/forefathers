@@ -1,2 +1,2 @@
-/* jshint devel:true */
-console.log('\'Allo \'Allo!');
+$('.work').imagefill();
+// image stretches to fill container
