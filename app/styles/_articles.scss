@@ -1,25 +1,25 @@
 .work {
     font-family: sans-serif;
     color: $white;
-    margin: 0.5em;
+    margin: 10px;
+    width: 290px;
+    height: 290px;
     float: left;
-    width: 100%;
-    display: block;
-    height: 20em;
     &:hover {
       background: rgba(0,0,0,.8);
     }
     img {
-      width: 200px;
       z-index: -10;
       max-width: none;
+      width: 290px;
+      height: 290px;
     }
-
     h1 {
       font-size: 1em;
       line-height: 1.05em;
-      padding: 0;
       text-align: center;
       margin: 0;
+      display: none;
+      top: 50%;
     }
 }
